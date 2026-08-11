@@ -1,0 +1,254 @@
+/*==========================
+1200px
+===========================*/
+
+@media (max-width:1200px){
+
+.hero-title{
+    font-size:48px;
+}
+
+.section-heading h2{
+    font-size:38px;
+}
+
+.process-track{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/*==========================
+992px
+===========================*/
+
+@media (max-width:992px){
+
+section{
+    padding:70px 0;
+}
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-collapse{
+    background:#fff;
+    margin-top:15px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.nav-link{
+    margin:10px 0;
+}
+
+.hero{
+    text-align:center;
+}
+
+.hero-title{
+    font-size:42px;
+}
+
+.hero-text{
+    font-size:17px;
+}
+
+.hero-cta{
+    justify-content:center;
+}
+
+.hero-points{
+    justify-content:center;
+}
+
+.hero-visual{
+    margin-top:40px;
+}
+
+.chip-rank{
+    left:0;
+    top:-15px;
+}
+
+.chip-search{
+    left:0;
+    bottom:20px;
+}
+
+.floating-card{
+    right:0;
+    bottom:80px;
+}
+
+.process-track{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.cta-box h2{
+    font-size:36px;
+}
+
+.site-footer{
+    text-align:center;
+}
+
+.footer-social{
+    margin-top:20px;
+}
+
+}
+
+/*==========================
+768px
+===========================*/
+
+@media (max-width:768px){
+
+.hero-title{
+    font-size:36px;
+}
+
+.section-heading h2{
+    font-size:32px;
+}
+
+.hero-text{
+    font-size:16px;
+}
+
+.announcement-inner{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+.hero-cta{
+    flex-direction:column;
+}
+
+.btn-primary-cta,
+.btn-outline-cta,
+.btn-light-cta{
+
+    width:100%;
+}
+
+.process-track{
+    grid-template-columns:1fr;
+}
+
+.floating-chip,
+.floating-card{
+
+    position:static;
+    margin-top:20px;
+}
+
+.service-card,
+.why-item,
+.blog-card,
+.review-placeholder{
+
+    text-align:center;
+}
+
+.service-icon{
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.footer-brand{
+    display:block;
+    margin-bottom:20px;
+}
+
+}
+
+/*==========================
+576px
+===========================*/
+
+@media (max-width:576px){
+
+section{
+    padding:60px 0;
+}
+
+.hero-title{
+    font-size:30px;
+    line-height:1.3;
+}
+
+.section-heading h2{
+    font-size:28px;
+}
+
+.section-heading p{
+    font-size:15px;
+}
+
+.eyebrow{
+    font-size:14px;
+}
+
+.service-card,
+.why-item,
+.process-step,
+.review-placeholder,
+.blog-card{
+
+    padding:25px;
+}
+
+.blog-thumb{
+    height:140px;
+    font-size:45px;
+}
+
+.cta-box{
+    padding:40px 20px;
+}
+
+.cta-box h2{
+    font-size:28px;
+}
+
+.footer-social a{
+    width:40px;
+    height:40px;
+    margin:5px;
+}
+
+}
+
+/*==========================
+Extra Small Devices
+===========================*/
+
+@media (max-width:400px){
+
+.hero-title{
+    font-size:26px;
+}
+
+.navbar-brand{
+    font-size:26px;
+}
+
+.btn-primary-cta,
+.btn-outline-cta,
+.btn-light-cta{
+
+    padding:12px 20px;
+    font-size:15px;
+}
+
+.hero-points{
+    flex-direction:column;
+    gap:12px;
+}
+
+}

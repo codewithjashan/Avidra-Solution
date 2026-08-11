@@ -1,0 +1,106 @@
+/* =====================================================
+   AVIDRA SOLUTIONS — CONTACT PAGE
+   Responsive overrides
+   Breakpoints: 576 / 768 / 992 / 1200 / 1400
+   Mobile-first: base rules live in contact.css,
+   this file only adjusts per breakpoint.
+===================================================== */
+
+/* ---------- Base (below 576px) ---------- */
+body {
+  padding-top: 68px;
+}
+
+.hero-cta-group .btn {
+  width: 100%;
+}
+
+.signal-path {
+  max-width: 320px;
+}
+.node span, .node small { font-size: 0.62rem; }
+
+.journey-track {
+  flex-direction: column;
+  gap: 2rem;
+}
+.journey-track::before {
+  top: 0; bottom: 0; left: 34px; right: auto;
+  width: 2px; height: auto;
+  background: linear-gradient(180deg, var(--c-primary), var(--c-secondary), var(--c-accent));
+}
+.journey-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  text-align: left;
+  padding: 0;
+}
+.journey-number { margin-bottom: 0; flex-shrink: 0; }
+
+.metrics-section { border-radius: 24px; }
+
+.final-cta-box { border-radius: 24px; }
+
+.cta-btn-group .btn { width: 100%; }
+
+/* ---------- 576px and up ---------- */
+@media (min-width: 576px) {
+  .hero-cta-group .btn { width: auto; }
+  .cta-btn-group .btn { width: auto; }
+}
+
+/* ---------- 768px and up ---------- */
+@media (min-width: 768px) {
+  body { padding-top: 76px; }
+
+  .journey-track {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .journey-track::before {
+    top: 34px; bottom: auto; left: 5%; right: 5%;
+    width: auto; height: 2px;
+    background: linear-gradient(90deg, var(--c-primary), var(--c-secondary), var(--c-accent));
+  }
+  .journey-step {
+    display: block;
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+  .journey-number { margin-bottom: 1.1rem; }
+
+  .signal-path { max-width: 480px; }
+}
+
+/* ---------- 992px and up ---------- */
+@media (min-width: 992px) {
+  .hero-subtitle { font-size: 1.2rem; }
+
+  .quick-contact-section .quick-card {
+    padding: 2rem 1.6rem;
+  }
+
+  .signal-path { max-width: 560px; }
+
+  .metrics-section { border-radius: 40px; }
+}
+
+/* ---------- 1200px and up ---------- */
+@media (min-width: 1200px) {
+  .hero-title { max-width: 900px; margin-left: auto; margin-right: auto; }
+  .glass-form-card { padding: 3rem; }
+}
+
+/* ---------- 1400px and up ---------- */
+@media (min-width: 1400px) {
+  .container { max-width: 1260px; }
+  .hero-subtitle { max-width: 700px; }
+}
+
+/* ---------- Fine adjustments for small phones ---------- */
+@media (max-width: 400px) {
+  .quick-card { padding: 1.4rem 1rem; }
+  .quick-card-icon { width: 44px; height: 44px; font-size: 1.1rem; }
+  .eyebrow-badge { font-size: 0.68rem; padding: 6px 14px; }
+}

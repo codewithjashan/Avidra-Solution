@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Avidra Solutions | Let's Build Something Great</title>
+<meta name="description" content="Get in touch with Avidra Solutions. Tell us about your project and our team will respond within 24 hours with a tailored strategy.">
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Google Fonts: Poppins + Inter -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Page styles -->
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="contact-responsive.css">
+</head>
+<body>
+
+<!-- =====================================================
+     NAVBAR (kept consistent with rest of Avidra Solutions site)
+====================================================== -->
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top avidra-navbar" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand avidra-brand" href="avidrasolutions.html">
+        <img src="images/AvidraSolutions.png" class="img-fluid" width="140" alt="yes yy">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#avidraNav" aria-controls="avidraNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="avidraNav">
+        <ul class="navbar-nav mx-auto align-items-lg-center gap-4 ">
+          <li class="nav-item"><a class="nav-link" href="avidrasolutions.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-5 ">
+            <a class="btn avidra-btn-primary btn-sm px-5" href="">Start a Project</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <!-- =====================================================
+       1. PREMIUM HERO SECTION
+  ====================================================== -->
+  <section class="hero-section" aria-labelledby="hero-heading">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="blob blob-a"></span>
+      <span class="blob blob-b"></span>
+      <span class="blob blob-c"></span>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container position-relative">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9" data-animate="fade-up">
+          <span class="eyebrow-badge">
+            <i class="bi bi-broadcast"></i> Currently accepting new projects
+          </span>
+          <h1 id="hero-heading" class="hero-title">
+            Let's turn your idea into a<br class="d-none d-md-block">
+            <span class="text-gradient">signal worth answering</span>
+          </h1>
+          <p class="hero-subtitle">
+            Tell us where your business needs to go. In one working day, a strategist
+            from Avidra Solutions will reply with next steps &mdash; not a form-letter, an actual plan.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#contact-form" class="btn avidra-btn-primary btn-lg">
+              <i class="bi bi-send-fill"></i> Send Your Brief
+            </a>
+            <a href="#quick-contact" class="btn avidra-btn-ghost btn-lg">
+              <i class="bi bi-telephone"></i> View Contact Options
+            </a>
+          </div>
+
+          <!-- Signature element: the signal path -->
+          <div class="signal-path" aria-hidden="true">
+            <span class="node node-you">
+              <i class="bi bi-person-fill"></i>
+              <small>You</small>
+            </span>
+            <svg class="signal-line" viewBox="0 0 600 40" preserveAspectRatio="none">
+              <path d="M10,20 C 150,0 250,40 300,20 C 350,0 450,40 590,20" />
+            </svg>
+            <span class="node node-avidra">
+              <i class="bi bi-hexagon-fill"></i>
+              <small>Avidra</small>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       2. QUICK CONTACT CARDS
+  ====================================================== -->
+  <section id="quick-contact" class="quick-contact-section" aria-labelledby="quick-contact-heading">
+    <div class="container">
+      <h2 id="quick-contact-heading" class="visually-hidden">Quick contact options</h2>
+      <div class="row g-4">
+
+        <div class="col-6 col-lg-3" data-animate="fade-up">
+          <a href="mailto:hello@avidrasolutions.com" class="quick-card">
+            <span class="quick-card-icon"><i class="bi bi-envelope-paper-fill"></i></span>
+            <h3 class="quick-card-title">Email Us</h3>
+            <p class="quick-card-desc">For proposals &amp; general queries</p>
+            <span class="quick-card-link">avidrasolutions@gamil.com</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-lg-3" data-animate="fade-up" data-delay="100">
+          <a href="tel:+15551234567" class="quick-card">
+            <span class="quick-card-icon"><i class="bi bi-telephone-fill"></i></span>
+            <h3 class="quick-card-title">Call Us</h3>
+            <p class="quick-card-desc">Mon&ndash;Fri, business hours</p>
+            <span class="quick-card-link">+91 9306045480</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-lg-3" data-animate="fade-up" data-delay="200">
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="quick-card">
+            <span class="quick-card-icon"><i class="bi bi-geo-alt-fill"></i></span>
+            <h3 class="quick-card-title">Visit Us</h3>
+            <p class="quick-card-desc">Our studio location</p>
+            <span class="quick-card-link">Ambala Cantt, Haryana</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-lg-3" data-animate="fade-up" data-delay="300">
+          <div class="quick-card quick-card-static">
+            <span class="quick-card-icon"><i class="bi bi-clock-fill"></i></span>
+            <h3 class="quick-card-title">Working Hours</h3>
+            <p class="quick-card-desc">We're online</p>
+            <span class="quick-card-link">Mon&ndash;Sat, 9AM&ndash;7PM IST</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       3. CONTACT FORM SECTION
+  ====================================================== -->
+  <section id="contact-form" class="form-section" aria-labelledby="form-heading">
+    <div class="container">
+      <div class="row gy-5 align-items-start">
+
+        <!-- Left side: heading + benefits -->
+        <div class="col-lg-5" data-animate="fade-up">
+          <span class="eyebrow-label">Project Brief</span>
+          <h2 id="form-heading" class="section-title">Tell us what you're building</h2>
+          <p class="section-desc">
+            The more context you share, the sharper our first reply will be. Most clients
+            hear back from a strategist &mdash; not a bot &mdash; within one business day.
+          </p>
+
+          <ul class="benefit-list list-unstyled">
+            <li>
+              <span class="benefit-icon"><i class="bi bi-check2-circle"></i></span>
+              <div>
+                <h3 class="benefit-title">No sales script</h3>
+                <p class="benefit-text">You'll speak with the strategist who'd actually run your project.</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="bi bi-check2-circle"></i></span>
+              <div>
+                <h3 class="benefit-title">Response within 24 hours</h3>
+                <p class="benefit-text">Every brief is read the same day it lands in our inbox.</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="bi bi-check2-circle"></i></span>
+              <div>
+                <h3 class="benefit-title">A real, tailored plan</h3>
+                <p class="benefit-text">You'll get scope, rough timeline and budget fit &mdash; before any commitment.</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon"><i class="bi bi-check2-circle"></i></span>
+              <div>
+                <h3 class="benefit-title">Zero obligation</h3>
+                <p class="benefit-text">Ask questions, compare notes, walk away if it's not a fit.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right side: glass form card -->
+        <div class="col-lg-7" data-animate="fade-up" data-delay="150">
+          <div class="glass-form-card">
+            <form novalidate id="avidraContactForm" aria-label="Project inquiry form">
+              <div class="row g-4">
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <input type="text" class="form-control" id="fullName" placeholder="" required>
+                    <label for="fullName">Full Name*</label>
+                    <div class="invalid-feedback">Please tell us your name.</div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <input type="text" class="form-control" id="companyName" placeholder="">
+                    <label for="companyName">Company</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <input type="email" class="form-control" id="emailAddress" placeholder="" required>
+                    <label for="emailAddress">Email Address*</label>
+                    <div class="invalid-feedback">A valid email helps us reply.</div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <input type="tel" maxlength="10" class="form-control" id="phoneNumber" placeholder="">
+                    <label for="phoneNumber">Phone Number</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <input type="url" class="form-control" id="websiteUrl" placeholder=" ">
+                    <label for="websiteUrl">Current Website</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <select class="form-select" id="serviceType" required>
+                      <option value="" disabled selected hidden> </option>
+                      <option value="web-design">Web Design &amp; Development</option>
+                      <option value="seo">SEO &amp; Organic Growth</option>
+                      <option value="branding">Branding &amp; Identity</option>
+                      <option value="ecommerce">E-commerce</option>
+                      <option value="marketing">Digital Marketing</option>
+                      <option value="other">Something Else</option>
+                    </select>
+                    <label for="serviceType">Service Needed*</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <select class="form-select" id="projectBudget">
+                      <option value="" disabled selected hidden> </option>
+                      <option value="under-5k">Under $5,000</option>
+                      <option value="5k-15k">$5,000 &ndash; $15,000</option>
+                      <option value="15k-50k">$15,000 &ndash; $50,000</option>
+                      <option value="50k-plus">$50,000+</option>
+                      <option value="not-sure">Not sure yet</option>
+                    </select>
+                    <label for="projectBudget">Estimated Budget</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="floating-field">
+                    <select class="form-select" id="projectTimeline">
+                      <option value="" disabled selected hidden> </option>
+                      <option value="asap">As soon as possible</option>
+                      <option value="1-3-months">1&ndash;3 months</option>
+                      <option value="3-6-months">3&ndash;6 months</option>
+                      <option value="flexible">Flexible</option>
+                    </select>
+                    <label for="projectTimeline">Ideal Timeline</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="floating-field">
+                    <textarea class="form-control" id="projectMessage" placeholder=" " rows="4" required></textarea>
+                    <label for="projectMessage">Tell us about your project*</label>
+                    <div class="invalid-feedback">A short description helps us prepare.</div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-check avidra-checkbox">
+                    <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                    <label class="form-check-label" for="agreeTerms">
+                      I agree to be contacted about my project and accept the
+                      <a href="/privacy">privacy policy</a>.
+                    </label>
+                    <div class="invalid-feedback">Please accept the privacy policy to continue.</div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn avidra-btn-primary btn-lg w-100 ripple-btn">
+                    <i class="bi bi-send-fill"></i> Submit Project Brief
+                  </button>
+                  <p class="form-note"><i class="bi bi-shield-check"></i> Your information stays private and is never shared.</p>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       4. WHY CHOOSE AVIDRA SOLUTIONS
+  ====================================================== -->
+  <section class="why-section" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-7" data-animate="fade-up">
+          <span class="eyebrow-label">Why Avidra</span>
+          <h2 id="why-heading" class="section-title">Built for founders who hate agency runaround</h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-animate="fade-up">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-graph-up-arrow"></i></span>
+            <h3 class="feature-title">SEO Expertise</h3>
+            <p class="feature-text">Technical &amp; content SEO baked in from day one, not bolted on after launch.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" data-delay="80">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-window-stack"></i></span>
+            <h3 class="feature-title">Modern Websites</h3>
+            <p class="feature-text">Fast, accessible builds designed to convert, not just to look good in a portfolio.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" data-delay="160">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-chat-dots-fill"></i></span>
+            <h3 class="feature-title">Fast Communication</h3>
+            <p class="feature-text">A dedicated channel with your team &mdash; no chasing replies for days.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" data-delay="240">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-diagram-3-fill"></i></span>
+            <h3 class="feature-title">Custom Strategy</h3>
+            <p class="feature-text">No templated packages &mdash; every plan is scoped around your goals.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" data-delay="320">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-eye-fill"></i></span>
+            <h3 class="feature-title">Transparent Process</h3>
+            <p class="feature-text">Live project boards and weekly updates, so nothing happens in a black box.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-animate="fade-up" data-delay="400">
+          <div class="feature-card">
+            <span class="feature-icon"><i class="bi bi-life-preserver"></i></span>
+            <h3 class="feature-title">Long Term Support</h3>
+            <p class="feature-text">We stay on after launch for updates, fixes and ongoing growth work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       5. PROJECT JOURNEY TIMELINE
+  ====================================================== -->
+  <section class="timeline-section" aria-labelledby="timeline-heading">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-7" data-animate="fade-up">
+          <span class="eyebrow-label">How It Works</span>
+          <h2 id="timeline-heading" class="section-title">Your project journey with us</h2>
+        </div>
+      </div>
+
+      <div class="journey-track">
+        <div class="journey-step" data-animate="fade-up">
+          <span class="journey-number">01</span>
+          <h3 class="journey-title">Discovery</h3>
+          <p class="journey-text">We learn your business, audience and goals.</p>
+        </div>
+        <div class="journey-step" data-animate="fade-up" data-delay="80">
+          <span class="journey-number">02</span>
+          <h3 class="journey-title">Consultation</h3>
+          <p class="journey-text">A live call to align on scope and priorities.</p>
+        </div>
+        <div class="journey-step" data-animate="fade-up" data-delay="160">
+          <span class="journey-number">03</span>
+          <h3 class="journey-title">Strategy</h3>
+          <p class="journey-text">We map the plan, timeline and success metrics.</p>
+        </div>
+        <div class="journey-step" data-animate="fade-up" data-delay="240">
+          <span class="journey-number">04</span>
+          <h3 class="journey-title">Execution</h3>
+          <p class="journey-text">Design and development, with weekly check-ins.</p>
+        </div>
+        <div class="journey-step" data-animate="fade-up" data-delay="320">
+          <span class="journey-number">05</span>
+          <h3 class="journey-title">Growth</h3>
+          <p class="journey-text">Launch, measure, and keep improving together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       6. FAQ SECTION
+  ====================================================== -->
+  <section class="faq-section" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-7" data-animate="fade-up">
+          <span class="eyebrow-label">Questions</span>
+          <h2 id="faq-heading" class="section-title">Frequently asked questions</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9" data-animate="fade-up">
+          <div class="accordion avidra-accordion" id="faqAccordion">
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                  How quickly will I hear back after submitting the form?
+                </button>
+              </h3>
+              <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Every brief is reviewed the same day it arrives, and you'll get a personal reply from a strategist within one business day.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                  Do you work with businesses outside your local timezone?
+                </button>
+              </h3>
+              <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. Most of our clients are remote, and we schedule calls to overlap comfortably with your working hours.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                  What information should I include in my project brief?
+                </button>
+              </h3>
+              <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Share your goals, current website (if any), rough budget and timeline. The more context, the sharper our first response.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                  Is the initial consultation really free?
+                </button>
+              </h3>
+              <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes, there's no cost and no obligation. It's simply a conversation to see if we're the right fit for your project.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                  Can you work with a limited budget?
+                </button>
+              </h3>
+              <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We scope every project to fit real constraints. Tell us your range and we'll suggest what's realistically achievable within it.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="faqHeading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                  What happens after my website or campaign launches?
+                </button>
+              </h3>
+              <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We offer ongoing support plans for updates, monitoring and continued growth work, so launch day isn't the finish line.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       7. SUCCESS METRICS
+  ====================================================== -->
+  <section class="metrics-section" aria-labelledby="metrics-heading">
+    <div class="container">
+      <h2 id="metrics-heading" class="visually-hidden">Our track record</h2>
+      <div class="row g-4 text-center">
+
+        <div class="col-6 col-lg" data-animate="fade-up">
+          <div class="metric-card">
+            <span class="metric-number" data-count="250" data-suffix="+">0</span>
+            <span class="metric-label">Projects</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg" data-animate="fade-up" data-delay="80">
+          <div class="metric-card">
+            <span class="metric-number" data-count="180" data-suffix="+">0</span>
+            <span class="metric-label">Happy Clients</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg" data-animate="fade-up" data-delay="160">
+          <div class="metric-card">
+            <span class="metric-number" data-count="24" data-suffix=" Hr">0</span>
+            <span class="metric-label">Response Time</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg" data-animate="fade-up" data-delay="240">
+          <div class="metric-card">
+            <span class="metric-number" data-count="98" data-suffix="%">0</span>
+            <span class="metric-label">Satisfaction</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg" data-animate="fade-up" data-delay="320">
+          <div class="metric-card">
+            <span class="metric-number" data-count="8" data-suffix="+">0</span>
+            <span class="metric-label">Yrs Experience</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       8. FINAL CTA BANNER
+  ====================================================== -->
+  <section class="final-cta-section" aria-labelledby="final-cta-heading">
+    <div class="container">
+      <div class="final-cta-box" data-animate="fade-up">
+        <div class="cta-pattern" aria-hidden="true"></div>
+        <div class="cta-glow" aria-hidden="true"></div>
+        <div class="row justify-content-center text-center position-relative">
+          <div class="col-lg-8">
+            <h2 id="final-cta-heading" class="cta-title">Ready to send your signal?</h2>
+            <p class="cta-desc">Your project brief takes five minutes to write and starts a real conversation the same day.</p>
+            <div class="cta-btn-group">
+              <a href="#contact-form" class="btn avidra-btn-white btn-lg">
+                <i class="bi bi-send-fill"></i> Start Your Project
+              </a>
+              <a href="tel:+15551234567" class="btn avidra-btn-outline-white btn-lg">
+                <i class="bi bi-telephone-fill"></i> Call Instead
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =====================================================
+     FOOTER (kept consistent with rest of Avidra Solutions site)
+====================================================== -->
+<footer class="avidra-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="footer-brand" href="avidrasolutions.html">
+          <img src="images/AvidraSolutions.png" class="img-fluid" width="200" alt="yes yes ">
+        </a>
+        <p class="footer-tagline">An SEO agency helping small businesses, local brands and growing companies rank higher through honest, white-hat strategy.</p>
+        <div class="footer-social">
+          <a target="_blank" href="https://in.linkedin.com/avidrasolutions/" aria-label="Avidra on LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a target="_blank" href="https://x.com/avidrasolutions" aria-label="Avidra on X"><i class="bi bi-twitter-x"></i></a>
+          <a target="_blank" href="https://www.instagram.com/avidrasolution" aria-label="Avidra on Instagram"><i class="bi bi-instagram"></i></a>
+          <a target="_blank" href="https://www.facebook.com/avidrasolutions" aria-label="Avidra on Facebook"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links list-unstyled">
+          <li><a href="services.html">SEO Audit</a></li>
+          <li><a href="services.html">Keyword Research</a></li>
+          <li><a href="services.html">Technical SEO</a></li>
+          <li><a href="services.html">Link Building</a></li>
+          <li><a href="services.html">Local SEO</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-6 col-lg-2">
+        <h4 class="footer-heading">Resource</h4>
+        <ul class="footer-links list-unstyled">
+          <li><a href="avidrasolutions.html">Home</a></li>
+          <li><a href="services.html">Service</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+
+      <div class="col-lg-3">
+        <h4 class="footer-heading">Contact</h4>
+        <ul class="footer-links list-unstyled">
+          <li><i class="bi bi-envelope"></i> avidrasolutions@gamil.com</li>
+          <li><i class="bi bi-telephone"></i> +91 9306045480</li>
+          <li><i class="bi bi-geo-alt"></i> Ambala Cantt, Haryana, India </li>
+        </ul>
+      </div>
+      
+    </div>
+    <hr class="footer-divider">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="footer-copy text-center" >&copy; 2026 Avidra Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
